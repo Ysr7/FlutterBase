@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  package_info: ^0.4.0
   dio: ^3.0.9
   shared_preferences: ^0.5.7+3
   flutter:
@@ -40,11 +41,14 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+ 
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/images/logo_final_harpia_consórcios branca.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
